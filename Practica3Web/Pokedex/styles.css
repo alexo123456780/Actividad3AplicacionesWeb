@@ -1,0 +1,91 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.container-fluid {
+    max-width: 1000px;
+}
+
+.pokedex {
+    background-color: #ff0000;
+    border: 20px solid #8b0000;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.pokedex-screen {
+    background-color: #98fb98;
+    border: 10px solid #006400;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon-image {
+    background-color: #ffffff;
+    border: 5px solid #006400;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.pokemon-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.type-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.stat-bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.evolution-image {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.evolution-image:hover {
+    transform: scale(1.1);
+}
+
+#pokemonMoves {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0 15px;
+    }
+    
+    .pokedex {
+        border-width: 10px;
+    }
+    
+    .pokedex-screen {
+        border-width: 5px;
+    }
+}

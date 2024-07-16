@@ -1,0 +1,89 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #2D3277;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #3483FA;
+    border-color: #3483FA;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2968c8;
+    border-color: #2968c8;
+    transform: translateY(-2px);
+}
+
+.card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #2D3277;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.precio {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #39B54A;
+    margin-top: 10px;
+}
+
+#entradaBusqueda:focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 131, 250, 0.25);
+    border-color: #3483FA;
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+    padding: 15px;
+}
+
+.btn-sm {
+    width: 100%;
+}
